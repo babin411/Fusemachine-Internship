@@ -1,0 +1,1001 @@
+participant_id,age,how_masculine,how_important
+1,34-60,Somewhat,very
+2,60+,Somewhat,no answer
+3,18-34,not at all,Somewhat
+4,18-34,Somewhat,very
+5,34-60,very,very
+6,60+,not at all,not at all
+7,60+,not at all,very
+8,60+,not at all,not very
+9,18-34,no answer,very
+10,34-60,no answer,very
+11,60+,Somewhat,Somewhat
+12,34-60,no answer,not at all
+13,60+,not at all,no answer
+14,60+,not at all,very
+15,0-18,very,not very
+16,60+,Somewhat,Somewhat
+17,0-18,not at all,very
+18,34-60,not at all,not very
+19,34-60,Somewhat,not at all
+20,18-34,no answer,not very
+21,18-34,Somewhat,very
+22,18-34,Somewhat,no answer
+23,34-60,not very,not at all
+24,34-60,no answer,no answer
+25,60+,not at all,very
+26,60+,not very,Somewhat
+27,34-60,very,no answer
+28,60+,Somewhat,not at all
+29,60+,no answer,no answer
+30,18-34,not at all,not at all
+31,34-60,not at all,not very
+32,18-34,Somewhat,Somewhat
+33,34-60,Somewhat,not very
+34,34-60,not at all,not at all
+35,0-18,Somewhat,not at all
+36,18-34,not very,not very
+37,34-60,very,Somewhat
+38,34-60,no answer,not at all
+39,60+,Somewhat,not very
+40,34-60,not at all,no answer
+41,34-60,not at all,Somewhat
+42,60+,no answer,Somewhat
+43,0-18,Somewhat,no answer
+44,0-18,not at all,Somewhat
+45,60+,very,not very
+46,18-34,very,not at all
+47,60+,not at all,not at all
+48,0-18,not very,not at all
+49,34-60,Somewhat,no answer
+50,18-34,not at all,Somewhat
+51,18-34,very,not at all
+52,0-18,no answer,not very
+53,60+,very,not at all
+54,0-18,not at all,not very
+55,34-60,Somewhat,not at all
+56,0-18,Somewhat,not at all
+57,0-18,no answer,very
+58,0-18,not very,not very
+59,34-60,not at all,not very
+60,34-60,not very,very
+61,34-60,Somewhat,not very
+62,60+,Somewhat,Somewhat
+63,34-60,very,Somewhat
+64,0-18,not very,very
+65,0-18,not very,not at all
+66,0-18,Somewhat,no answer
+67,18-34,not at all,no answer
+68,0-18,Somewhat,not at all
+69,18-34,no answer,no answer
+70,18-34,Somewhat,no answer
+71,34-60,very,not very
+72,60+,very,not at all
+73,34-60,very,Somewhat
+74,18-34,no answer,Somewhat
+75,34-60,not very,no answer
+76,60+,very,not at all
+77,0-18,very,Somewhat
+78,0-18,not very,not at all
+79,60+,not at all,not at all
+80,0-18,not at all,very
+81,0-18,not at all,no answer
+82,0-18,no answer,not very
+83,60+,very,not very
+84,60+,not very,no answer
+85,34-60,no answer,very
+86,60+,Somewhat,Somewhat
+87,34-60,very,Somewhat
+88,60+,not at all,very
+89,18-34,not very,very
+90,0-18,not very,Somewhat
+91,34-60,not at all,not very
+92,0-18,no answer,Somewhat
+93,60+,not very,Somewhat
+94,0-18,not very,not at all
+95,0-18,not at all,very
+96,60+,Somewhat,no answer
+97,34-60,no answer,not at all
+98,60+,Somewhat,not at all
+99,60+,Somewhat,very
+100,18-34,not at all,Somewhat
+101,60+,not very,very
+102,18-34,very,Somewhat
+103,18-34,not very,Somewhat
+104,18-34,not at all,not very
+105,0-18,not very,no answer
+106,0-18,Somewhat,not at all
+107,0-18,no answer,very
+108,0-18,not very,Somewhat
+109,60+,no answer,Somewhat
+110,34-60,Somewhat,not at all
+111,34-60,very,no answer
+112,18-34,not very,not at all
+113,34-60,Somewhat,no answer
+114,0-18,very,Somewhat
+115,34-60,not very,not at all
+116,0-18,no answer,no answer
+117,18-34,Somewhat,no answer
+118,34-60,not at all,Somewhat
+119,18-34,no answer,very
+120,60+,not at all,Somewhat
+121,34-60,very,not very
+122,60+,Somewhat,Somewhat
+123,18-34,not at all,very
+124,60+,not very,very
+125,34-60,very,no answer
+126,0-18,not very,not at all
+127,0-18,not very,very
+128,18-34,no answer,Somewhat
+129,60+,not very,no answer
+130,60+,not very,not at all
+131,0-18,very,no answer
+132,0-18,Somewhat,very
+133,0-18,no answer,Somewhat
+134,0-18,very,very
+135,18-34,Somewhat,not at all
+136,34-60,very,Somewhat
+137,60+,very,Somewhat
+138,18-34,Somewhat,Somewhat
+139,0-18,not very,not at all
+140,0-18,very,no answer
+141,34-60,Somewhat,no answer
+142,18-34,Somewhat,very
+143,34-60,no answer,Somewhat
+144,60+,no answer,not very
+145,60+,very,not very
+146,60+,not very,not very
+147,0-18,very,Somewhat
+148,34-60,not at all,not at all
+149,18-34,not very,not at all
+150,0-18,not at all,very
+151,60+,Somewhat,not at all
+152,34-60,not very,not very
+153,18-34,very,no answer
+154,60+,no answer,not at all
+155,60+,not at all,no answer
+156,0-18,no answer,Somewhat
+157,18-34,no answer,very
+158,60+,Somewhat,not very
+159,60+,not very,no answer
+160,34-60,no answer,no answer
+161,60+,not at all,not at all
+162,18-34,Somewhat,not at all
+163,18-34,Somewhat,no answer
+164,0-18,not at all,not at all
+165,34-60,no answer,Somewhat
+166,34-60,Somewhat,very
+167,18-34,Somewhat,Somewhat
+168,60+,not at all,no answer
+169,34-60,no answer,very
+170,60+,not very,not at all
+171,60+,not at all,very
+172,60+,very,very
+173,18-34,not very,no answer
+174,60+,very,not very
+175,60+,not very,very
+176,60+,Somewhat,very
+177,18-34,not very,not at all
+178,34-60,not very,Somewhat
+179,60+,not very,not at all
+180,60+,very,no answer
+181,0-18,not very,not at all
+182,60+,not at all,very
+183,34-60,very,no answer
+184,18-34,not at all,Somewhat
+185,18-34,not at all,not very
+186,60+,not very,not at all
+187,18-34,not at all,Somewhat
+188,34-60,not at all,very
+189,0-18,Somewhat,Somewhat
+190,34-60,no answer,no answer
+191,18-34,Somewhat,not at all
+192,60+,no answer,not at all
+193,34-60,not at all,Somewhat
+194,18-34,no answer,very
+195,18-34,Somewhat,not at all
+196,60+,no answer,Somewhat
+197,34-60,not very,not very
+198,18-34,not at all,not very
+199,18-34,Somewhat,no answer
+200,34-60,no answer,not very
+201,18-34,very,Somewhat
+202,34-60,not very,no answer
+203,18-34,not very,no answer
+204,60+,very,no answer
+205,0-18,not at all,no answer
+206,60+,not very,no answer
+207,0-18,Somewhat,Somewhat
+208,0-18,Somewhat,not very
+209,60+,not very,Somewhat
+210,18-34,not at all,no answer
+211,34-60,not at all,Somewhat
+212,60+,not at all,very
+213,34-60,very,no answer
+214,0-18,not very,not very
+215,60+,not very,no answer
+216,34-60,not very,not very
+217,60+,not very,Somewhat
+218,34-60,no answer,not very
+219,0-18,Somewhat,no answer
+220,34-60,no answer,not very
+221,0-18,Somewhat,Somewhat
+222,34-60,not very,no answer
+223,60+,not at all,Somewhat
+224,18-34,no answer,no answer
+225,18-34,very,very
+226,60+,not at all,very
+227,0-18,not very,no answer
+228,18-34,very,no answer
+229,18-34,no answer,very
+230,18-34,not very,very
+231,60+,Somewhat,no answer
+232,60+,no answer,no answer
+233,34-60,not at all,no answer
+234,0-18,not very,not at all
+235,60+,not at all,not at all
+236,0-18,not at all,not very
+237,60+,not very,not at all
+238,60+,no answer,not at all
+239,60+,not very,not at all
+240,60+,very,no answer
+241,60+,Somewhat,no answer
+242,18-34,very,no answer
+243,0-18,not at all,not at all
+244,0-18,no answer,not at all
+245,0-18,very,no answer
+246,18-34,not at all,not at all
+247,34-60,not at all,not at all
+248,0-18,Somewhat,no answer
+249,0-18,Somewhat,very
+250,34-60,no answer,Somewhat
+251,0-18,not at all,very
+252,18-34,very,very
+253,18-34,no answer,very
+254,18-34,not at all,very
+255,18-34,no answer,not at all
+256,0-18,not at all,not very
+257,18-34,not very,Somewhat
+258,34-60,very,not at all
+259,60+,not very,not very
+260,60+,Somewhat,no answer
+261,18-34,Somewhat,not at all
+262,0-18,Somewhat,not very
+263,18-34,very,not at all
+264,34-60,Somewhat,very
+265,18-34,very,not very
+266,60+,not at all,very
+267,34-60,not at all,Somewhat
+268,34-60,not very,very
+269,34-60,Somewhat,not at all
+270,34-60,not at all,Somewhat
+271,0-18,not very,very
+272,18-34,very,very
+273,0-18,not very,not at all
+274,34-60,not very,not at all
+275,18-34,very,Somewhat
+276,34-60,no answer,no answer
+277,60+,very,not very
+278,34-60,not very,not at all
+279,18-34,no answer,no answer
+280,18-34,Somewhat,no answer
+281,0-18,no answer,very
+282,34-60,Somewhat,not at all
+283,60+,no answer,very
+284,18-34,not very,not at all
+285,60+,Somewhat,not at all
+286,34-60,not very,not at all
+287,60+,very,very
+288,34-60,Somewhat,not at all
+289,34-60,no answer,not at all
+290,0-18,Somewhat,very
+291,34-60,no answer,very
+292,34-60,not at all,very
+293,60+,very,Somewhat
+294,60+,no answer,not at all
+295,60+,very,no answer
+296,34-60,Somewhat,not very
+297,34-60,not at all,no answer
+298,0-18,not at all,not at all
+299,60+,not at all,not at all
+300,0-18,Somewhat,not very
+301,34-60,not at all,not very
+302,34-60,no answer,Somewhat
+303,34-60,very,not at all
+304,0-18,not at all,very
+305,18-34,not very,not at all
+306,0-18,not at all,very
+307,34-60,no answer,not very
+308,60+,no answer,Somewhat
+309,18-34,no answer,Somewhat
+310,60+,no answer,no answer
+311,0-18,not very,not at all
+312,18-34,Somewhat,not at all
+313,18-34,no answer,not at all
+314,18-34,not very,Somewhat
+315,0-18,no answer,not very
+316,0-18,not very,not at all
+317,34-60,not very,no answer
+318,60+,Somewhat,not at all
+319,18-34,not at all,not very
+320,18-34,Somewhat,very
+321,0-18,very,no answer
+322,34-60,no answer,not very
+323,18-34,not very,Somewhat
+324,34-60,not at all,Somewhat
+325,18-34,no answer,not very
+326,18-34,not at all,Somewhat
+327,34-60,very,no answer
+328,34-60,Somewhat,Somewhat
+329,0-18,no answer,very
+330,34-60,Somewhat,very
+331,34-60,very,no answer
+332,0-18,not very,not at all
+333,60+,not very,Somewhat
+334,60+,not at all,Somewhat
+335,0-18,no answer,Somewhat
+336,18-34,no answer,Somewhat
+337,60+,not at all,not very
+338,60+,Somewhat,no answer
+339,60+,not at all,not at all
+340,18-34,not very,very
+341,60+,not very,not at all
+342,34-60,very,Somewhat
+343,18-34,not very,no answer
+344,60+,Somewhat,Somewhat
+345,34-60,not at all,very
+346,0-18,Somewhat,not very
+347,60+,not at all,Somewhat
+348,18-34,not very,no answer
+349,60+,Somewhat,not at all
+350,0-18,not at all,Somewhat
+351,34-60,not at all,very
+352,34-60,not at all,no answer
+353,60+,no answer,not very
+354,0-18,not at all,no answer
+355,60+,Somewhat,very
+356,0-18,not at all,Somewhat
+357,0-18,no answer,no answer
+358,60+,very,Somewhat
+359,0-18,no answer,very
+360,60+,no answer,Somewhat
+361,60+,not at all,very
+362,0-18,no answer,very
+363,60+,no answer,Somewhat
+364,0-18,not very,not at all
+365,34-60,very,very
+366,60+,very,Somewhat
+367,18-34,not at all,not at all
+368,34-60,not at all,not at all
+369,34-60,not very,Somewhat
+370,34-60,not very,not at all
+371,18-34,not very,very
+372,60+,Somewhat,not at all
+373,34-60,not very,Somewhat
+374,34-60,Somewhat,not at all
+375,18-34,not at all,Somewhat
+376,60+,Somewhat,very
+377,18-34,very,no answer
+378,0-18,not at all,Somewhat
+379,60+,no answer,not very
+380,0-18,not at all,no answer
+381,60+,not very,Somewhat
+382,34-60,Somewhat,not very
+383,34-60,very,no answer
+384,34-60,not at all,not very
+385,34-60,no answer,no answer
+386,0-18,not very,not very
+387,60+,not very,not very
+388,18-34,not at all,not at all
+389,18-34,not at all,Somewhat
+390,18-34,Somewhat,Somewhat
+391,60+,Somewhat,not at all
+392,0-18,not very,very
+393,0-18,not at all,very
+394,34-60,not at all,not at all
+395,18-34,very,not very
+396,60+,not very,not very
+397,34-60,no answer,not at all
+398,18-34,Somewhat,very
+399,34-60,Somewhat,Somewhat
+400,34-60,Somewhat,very
+401,0-18,no answer,not very
+402,34-60,not at all,no answer
+403,34-60,very,very
+404,18-34,not very,not at all
+405,60+,Somewhat,Somewhat
+406,0-18,not very,very
+407,60+,very,not at all
+408,0-18,not very,Somewhat
+409,0-18,Somewhat,not at all
+410,18-34,Somewhat,no answer
+411,60+,not at all,Somewhat
+412,60+,not at all,not very
+413,18-34,not very,Somewhat
+414,60+,no answer,Somewhat
+415,34-60,very,Somewhat
+416,34-60,Somewhat,very
+417,60+,not at all,Somewhat
+418,0-18,not very,Somewhat
+419,60+,not at all,very
+420,18-34,very,no answer
+421,18-34,not at all,very
+422,60+,Somewhat,very
+423,34-60,not at all,Somewhat
+424,34-60,Somewhat,not very
+425,34-60,not very,very
+426,18-34,no answer,very
+427,18-34,not very,Somewhat
+428,60+,not at all,not very
+429,34-60,very,no answer
+430,60+,Somewhat,no answer
+431,0-18,no answer,no answer
+432,60+,Somewhat,very
+433,0-18,very,not at all
+434,0-18,Somewhat,no answer
+435,34-60,Somewhat,not very
+436,34-60,not at all,not at all
+437,60+,Somewhat,very
+438,18-34,very,no answer
+439,0-18,not at all,not very
+440,0-18,not at all,not very
+441,0-18,no answer,no answer
+442,0-18,very,not at all
+443,0-18,not very,Somewhat
+444,0-18,not at all,not at all
+445,0-18,not very,very
+446,0-18,no answer,very
+447,34-60,Somewhat,no answer
+448,18-34,very,not at all
+449,34-60,no answer,very
+450,34-60,not very,very
+451,0-18,not very,Somewhat
+452,60+,not at all,very
+453,18-34,very,very
+454,60+,not at all,no answer
+455,18-34,not very,no answer
+456,60+,very,Somewhat
+457,60+,no answer,not at all
+458,34-60,not at all,Somewhat
+459,18-34,no answer,Somewhat
+460,34-60,no answer,Somewhat
+461,60+,not very,very
+462,0-18,not very,no answer
+463,60+,not very,no answer
+464,0-18,Somewhat,no answer
+465,60+,no answer,very
+466,18-34,no answer,very
+467,60+,no answer,Somewhat
+468,0-18,no answer,not very
+469,34-60,not at all,Somewhat
+470,34-60,not at all,not at all
+471,60+,no answer,not at all
+472,0-18,not at all,not at all
+473,0-18,very,not at all
+474,60+,very,no answer
+475,60+,no answer,no answer
+476,34-60,not at all,no answer
+477,60+,not at all,not very
+478,34-60,not at all,very
+479,0-18,not at all,no answer
+480,0-18,not very,not at all
+481,60+,very,very
+482,34-60,not very,Somewhat
+483,0-18,Somewhat,no answer
+484,0-18,not at all,not very
+485,34-60,no answer,not very
+486,60+,Somewhat,not very
+487,60+,not at all,not very
+488,34-60,very,very
+489,18-34,not very,Somewhat
+490,0-18,not very,not very
+491,34-60,Somewhat,not very
+492,60+,not very,very
+493,34-60,Somewhat,Somewhat
+494,34-60,Somewhat,very
+495,60+,not at all,Somewhat
+496,0-18,no answer,not very
+497,18-34,not very,no answer
+498,18-34,very,not very
+499,34-60,Somewhat,not at all
+500,18-34,Somewhat,not very
+501,18-34,not at all,Somewhat
+502,60+,not at all,not very
+503,0-18,Somewhat,not very
+504,18-34,not at all,no answer
+505,0-18,very,not at all
+506,60+,very,not very
+507,60+,Somewhat,very
+508,60+,not at all,not very
+509,60+,not at all,not very
+510,18-34,Somewhat,not at all
+511,18-34,not very,not at all
+512,0-18,no answer,not very
+513,0-18,very,very
+514,18-34,no answer,Somewhat
+515,0-18,not very,Somewhat
+516,34-60,not very,not at all
+517,60+,not at all,not very
+518,34-60,no answer,not very
+519,18-34,not at all,no answer
+520,18-34,very,Somewhat
+521,0-18,Somewhat,very
+522,18-34,Somewhat,Somewhat
+523,34-60,not at all,very
+524,18-34,not at all,Somewhat
+525,0-18,no answer,Somewhat
+526,0-18,very,Somewhat
+527,60+,not at all,Somewhat
+528,34-60,not at all,no answer
+529,0-18,very,no answer
+530,18-34,no answer,not at all
+531,0-18,Somewhat,no answer
+532,18-34,not very,very
+533,18-34,not very,not very
+534,60+,not at all,not very
+535,0-18,no answer,very
+536,34-60,not at all,not at all
+537,34-60,not very,not at all
+538,60+,Somewhat,not very
+539,0-18,very,Somewhat
+540,0-18,no answer,not at all
+541,0-18,very,Somewhat
+542,60+,not at all,no answer
+543,60+,very,not very
+544,0-18,very,no answer
+545,18-34,no answer,very
+546,0-18,Somewhat,very
+547,60+,not at all,no answer
+548,34-60,Somewhat,Somewhat
+549,34-60,not very,Somewhat
+550,34-60,very,no answer
+551,60+,very,not at all
+552,34-60,very,not at all
+553,18-34,no answer,not very
+554,0-18,Somewhat,Somewhat
+555,0-18,no answer,no answer
+556,34-60,very,very
+557,0-18,Somewhat,very
+558,34-60,very,not at all
+559,34-60,no answer,not at all
+560,18-34,not very,no answer
+561,18-34,very,not at all
+562,34-60,no answer,Somewhat
+563,0-18,Somewhat,not at all
+564,60+,very,not very
+565,60+,Somewhat,very
+566,60+,very,no answer
+567,0-18,not at all,not very
+568,0-18,no answer,very
+569,0-18,Somewhat,not at all
+570,18-34,not at all,not very
+571,60+,very,not at all
+572,34-60,Somewhat,Somewhat
+573,18-34,very,very
+574,60+,not at all,not at all
+575,60+,not very,not at all
+576,60+,no answer,Somewhat
+577,0-18,very,not very
+578,18-34,not at all,not very
+579,34-60,not very,no answer
+580,60+,Somewhat,Somewhat
+581,34-60,not at all,not at all
+582,60+,very,not at all
+583,34-60,not very,Somewhat
+584,0-18,no answer,very
+585,18-34,not at all,Somewhat
+586,0-18,very,not at all
+587,18-34,Somewhat,not very
+588,34-60,very,Somewhat
+589,0-18,not very,not very
+590,60+,no answer,not at all
+591,34-60,Somewhat,very
+592,60+,no answer,not at all
+593,34-60,not at all,not at all
+594,18-34,no answer,not very
+595,60+,very,Somewhat
+596,34-60,very,Somewhat
+597,0-18,not very,not very
+598,34-60,not very,not very
+599,60+,not at all,not very
+600,60+,Somewhat,no answer
+601,0-18,not at all,not very
+602,0-18,not at all,no answer
+603,18-34,very,Somewhat
+604,0-18,Somewhat,not at all
+605,0-18,no answer,very
+606,18-34,not at all,not very
+607,60+,Somewhat,not very
+608,34-60,no answer,no answer
+609,34-60,not at all,Somewhat
+610,0-18,Somewhat,no answer
+611,0-18,Somewhat,very
+612,34-60,not very,Somewhat
+613,34-60,Somewhat,no answer
+614,0-18,Somewhat,very
+615,18-34,very,very
+616,60+,Somewhat,not very
+617,60+,not at all,very
+618,34-60,not at all,Somewhat
+619,34-60,very,very
+620,60+,Somewhat,very
+621,60+,very,Somewhat
+622,18-34,Somewhat,not at all
+623,60+,no answer,Somewhat
+624,0-18,very,very
+625,18-34,no answer,not very
+626,18-34,Somewhat,not very
+627,18-34,not at all,very
+628,18-34,not at all,very
+629,60+,not at all,Somewhat
+630,0-18,no answer,very
+631,34-60,very,Somewhat
+632,34-60,not very,very
+633,60+,not very,no answer
+634,60+,Somewhat,no answer
+635,60+,very,not very
+636,34-60,no answer,no answer
+637,18-34,not very,very
+638,34-60,Somewhat,very
+639,0-18,no answer,Somewhat
+640,60+,not at all,not at all
+641,18-34,not very,very
+642,0-18,not very,Somewhat
+643,0-18,very,not at all
+644,18-34,Somewhat,very
+645,18-34,Somewhat,very
+646,0-18,Somewhat,Somewhat
+647,34-60,Somewhat,Somewhat
+648,18-34,very,Somewhat
+649,18-34,very,Somewhat
+650,18-34,not at all,no answer
+651,34-60,Somewhat,not very
+652,60+,not at all,no answer
+653,34-60,very,Somewhat
+654,34-60,not very,not at all
+655,34-60,no answer,very
+656,34-60,no answer,not very
+657,34-60,Somewhat,not very
+658,34-60,Somewhat,not at all
+659,0-18,not very,no answer
+660,18-34,very,Somewhat
+661,0-18,Somewhat,not very
+662,34-60,not at all,not at all
+663,34-60,not very,very
+664,0-18,very,very
+665,60+,not very,Somewhat
+666,18-34,very,not at all
+667,34-60,not at all,no answer
+668,60+,no answer,Somewhat
+669,0-18,not very,not at all
+670,0-18,Somewhat,no answer
+671,18-34,not very,Somewhat
+672,18-34,very,very
+673,34-60,not at all,not very
+674,34-60,not at all,Somewhat
+675,0-18,no answer,not very
+676,60+,no answer,very
+677,0-18,Somewhat,very
+678,60+,not at all,not very
+679,18-34,not very,no answer
+680,34-60,Somewhat,Somewhat
+681,18-34,not at all,Somewhat
+682,0-18,not at all,no answer
+683,18-34,not very,not at all
+684,0-18,very,not at all
+685,18-34,not at all,very
+686,34-60,not at all,not at all
+687,60+,not at all,not very
+688,34-60,Somewhat,no answer
+689,34-60,not at all,not very
+690,0-18,very,not very
+691,0-18,not at all,very
+692,0-18,Somewhat,very
+693,18-34,not very,not at all
+694,60+,no answer,not very
+695,60+,very,no answer
+696,0-18,not at all,Somewhat
+697,60+,no answer,not at all
+698,34-60,not very,no answer
+699,60+,Somewhat,very
+700,60+,not at all,very
+701,18-34,no answer,very
+702,18-34,Somewhat,very
+703,0-18,no answer,Somewhat
+704,60+,not very,not at all
+705,60+,no answer,no answer
+706,60+,not very,not very
+707,0-18,not at all,not at all
+708,0-18,Somewhat,not very
+709,60+,not at all,Somewhat
+710,0-18,not very,no answer
+711,34-60,not at all,very
+712,34-60,no answer,Somewhat
+713,0-18,not very,not very
+714,34-60,very,not very
+715,0-18,very,no answer
+716,0-18,not very,no answer
+717,60+,not very,no answer
+718,0-18,very,very
+719,0-18,Somewhat,Somewhat
+720,0-18,not very,not very
+721,0-18,Somewhat,Somewhat
+722,0-18,not at all,very
+723,34-60,not at all,very
+724,0-18,not at all,Somewhat
+725,0-18,not very,no answer
+726,0-18,very,not at all
+727,34-60,not at all,no answer
+728,34-60,no answer,not at all
+729,60+,not very,not very
+730,18-34,no answer,very
+731,34-60,very,very
+732,0-18,not at all,very
+733,0-18,not at all,very
+734,18-34,not very,not at all
+735,18-34,very,not very
+736,34-60,very,very
+737,0-18,not at all,not very
+738,0-18,not very,very
+739,18-34,Somewhat,no answer
+740,34-60,no answer,not very
+741,18-34,very,not very
+742,34-60,no answer,very
+743,34-60,no answer,not at all
+744,60+,not very,not at all
+745,34-60,not very,not at all
+746,60+,no answer,not very
+747,18-34,Somewhat,not at all
+748,18-34,very,no answer
+749,18-34,not very,not at all
+750,60+,no answer,not at all
+751,60+,not very,Somewhat
+752,0-18,very,no answer
+753,60+,very,very
+754,34-60,very,very
+755,18-34,no answer,Somewhat
+756,18-34,not at all,very
+757,60+,very,not at all
+758,0-18,Somewhat,very
+759,34-60,Somewhat,no answer
+760,18-34,not very,Somewhat
+761,0-18,not very,Somewhat
+762,34-60,Somewhat,very
+763,34-60,Somewhat,not at all
+764,0-18,not very,very
+765,34-60,Somewhat,not at all
+766,34-60,Somewhat,very
+767,0-18,no answer,no answer
+768,60+,not very,very
+769,0-18,Somewhat,not at all
+770,60+,not at all,not very
+771,18-34,no answer,not very
+772,60+,no answer,very
+773,34-60,not very,Somewhat
+774,0-18,not very,not at all
+775,60+,Somewhat,not at all
+776,0-18,no answer,very
+777,0-18,no answer,no answer
+778,60+,not very,not very
+779,34-60,not very,no answer
+780,0-18,no answer,Somewhat
+781,34-60,no answer,no answer
+782,34-60,not at all,very
+783,0-18,not at all,Somewhat
+784,18-34,Somewhat,no answer
+785,18-34,not very,not very
+786,0-18,very,Somewhat
+787,60+,not very,not at all
+788,60+,Somewhat,Somewhat
+789,60+,Somewhat,very
+790,34-60,not very,not at all
+791,60+,no answer,Somewhat
+792,18-34,not at all,very
+793,34-60,no answer,no answer
+794,0-18,not very,Somewhat
+795,60+,very,Somewhat
+796,60+,Somewhat,not at all
+797,18-34,very,very
+798,0-18,no answer,Somewhat
+799,0-18,not very,no answer
+800,18-34,not very,not at all
+801,0-18,no answer,no answer
+802,34-60,not very,not very
+803,0-18,very,Somewhat
+804,34-60,no answer,no answer
+805,60+,not at all,not at all
+806,0-18,not very,not very
+807,18-34,not very,not at all
+808,18-34,Somewhat,not at all
+809,0-18,very,very
+810,60+,Somewhat,very
+811,0-18,very,Somewhat
+812,0-18,not at all,not very
+813,18-34,Somewhat,no answer
+814,34-60,not very,very
+815,34-60,Somewhat,not very
+816,34-60,Somewhat,no answer
+817,0-18,Somewhat,very
+818,0-18,not very,not very
+819,18-34,Somewhat,very
+820,60+,very,not very
+821,60+,Somewhat,very
+822,0-18,very,not very
+823,0-18,not at all,not at all
+824,0-18,no answer,no answer
+825,34-60,not at all,very
+826,34-60,Somewhat,Somewhat
+827,34-60,not very,not very
+828,0-18,Somewhat,not at all
+829,18-34,very,not at all
+830,0-18,very,Somewhat
+831,18-34,no answer,no answer
+832,0-18,not very,not very
+833,60+,very,not at all
+834,60+,not at all,not at all
+835,18-34,very,very
+836,18-34,not at all,no answer
+837,0-18,very,very
+838,18-34,not very,very
+839,34-60,Somewhat,very
+840,0-18,no answer,not at all
+841,60+,not very,not very
+842,18-34,no answer,very
+843,18-34,Somewhat,not very
+844,60+,not at all,Somewhat
+845,18-34,no answer,very
+846,0-18,very,no answer
+847,0-18,very,no answer
+848,18-34,no answer,no answer
+849,18-34,very,Somewhat
+850,34-60,Somewhat,Somewhat
+851,60+,not very,very
+852,18-34,Somewhat,not very
+853,60+,not very,Somewhat
+854,34-60,very,not very
+855,60+,not at all,no answer
+856,18-34,very,Somewhat
+857,18-34,Somewhat,not very
+858,34-60,no answer,not at all
+859,60+,not very,no answer
+860,34-60,very,not very
+861,0-18,not very,Somewhat
+862,60+,very,not at all
+863,60+,not at all,no answer
+864,18-34,very,very
+865,60+,Somewhat,not at all
+866,34-60,no answer,not very
+867,0-18,not very,very
+868,18-34,very,Somewhat
+869,18-34,not very,not at all
+870,34-60,Somewhat,not at all
+871,0-18,Somewhat,very
+872,60+,no answer,Somewhat
+873,0-18,not at all,no answer
+874,18-34,not very,very
+875,18-34,Somewhat,Somewhat
+876,18-34,no answer,very
+877,60+,not at all,no answer
+878,34-60,Somewhat,Somewhat
+879,34-60,not at all,no answer
+880,34-60,Somewhat,very
+881,60+,not at all,very
+882,34-60,not very,very
+883,34-60,no answer,not at all
+884,60+,Somewhat,very
+885,18-34,not very,Somewhat
+886,60+,no answer,no answer
+887,60+,no answer,not very
+888,18-34,very,not very
+889,34-60,Somewhat,very
+890,60+,no answer,not at all
+891,34-60,Somewhat,Somewhat
+892,18-34,not very,very
+893,18-34,not at all,very
+894,60+,Somewhat,no answer
+895,0-18,Somewhat,no answer
+896,60+,Somewhat,not at all
+897,34-60,not at all,not very
+898,18-34,Somewhat,no answer
+899,34-60,not at all,not at all
+900,0-18,very,very
+901,0-18,not very,not at all
+902,60+,not at all,not at all
+903,60+,Somewhat,not at all
+904,0-18,not at all,very
+905,0-18,very,no answer
+906,60+,not very,Somewhat
+907,60+,Somewhat,very
+908,0-18,not at all,not at all
+909,18-34,not very,no answer
+910,34-60,no answer,no answer
+911,34-60,Somewhat,not very
+912,60+,not very,no answer
+913,18-34,very,not very
+914,0-18,not very,no answer
+915,34-60,not at all,very
+916,18-34,very,not at all
+917,18-34,not at all,no answer
+918,34-60,not at all,Somewhat
+919,18-34,not very,very
+920,0-18,not very,very
+921,34-60,very,Somewhat
+922,60+,no answer,very
+923,18-34,no answer,very
+924,18-34,Somewhat,not very
+925,18-34,not very,not very
+926,60+,not at all,Somewhat
+927,34-60,no answer,not very
+928,34-60,not at all,not very
+929,18-34,not at all,very
+930,18-34,Somewhat,no answer
+931,34-60,very,no answer
+932,34-60,not at all,not very
+933,34-60,very,no answer
+934,34-60,not at all,very
+935,60+,not at all,no answer
+936,34-60,very,Somewhat
+937,60+,no answer,not very
+938,60+,not at all,Somewhat
+939,0-18,not very,very
+940,60+,not very,not very
+941,18-34,no answer,Somewhat
+942,18-34,Somewhat,no answer
+943,60+,not at all,not very
+944,0-18,not at all,not at all
+945,0-18,very,no answer
+946,60+,Somewhat,no answer
+947,60+,Somewhat,no answer
+948,34-60,no answer,not at all
+949,60+,no answer,very
+950,34-60,Somewhat,not at all
+951,18-34,very,not very
+952,0-18,very,not at all
+953,60+,not very,not very
+954,18-34,very,Somewhat
+955,18-34,very,very
+956,18-34,not at all,not very
+957,34-60,very,very
+958,18-34,not very,Somewhat
+959,60+,very,not at all
+960,60+,not at all,not very
+961,60+,not very,no answer
+962,18-34,not at all,Somewhat
+963,0-18,no answer,very
+964,60+,no answer,not at all
+965,60+,not very,no answer
+966,0-18,very,not at all
+967,0-18,very,no answer
+968,60+,Somewhat,very
+969,0-18,not at all,very
+970,60+,Somewhat,Somewhat
+971,60+,Somewhat,not at all
+972,60+,very,not at all
+973,0-18,not very,no answer
+974,0-18,Somewhat,very
+975,34-60,not at all,very
+976,34-60,not very,very
+977,60+,not at all,no answer
+978,60+,very,no answer
+979,60+,very,Somewhat
+980,60+,not very,not at all
+981,0-18,not very,very
+982,18-34,not very,not at all
+983,34-60,not at all,Somewhat
+984,34-60,not very,not at all
+985,60+,not at all,Somewhat
+986,34-60,very,not very
+987,60+,Somewhat,Somewhat
+988,34-60,very,not very
+989,18-34,Somewhat,no answer
+990,18-34,not at all,no answer
+991,34-60,not at all,not at all
+992,60+,Somewhat,very
+993,0-18,Somewhat,not at all
+994,60+,no answer,no answer
+995,18-34,not at all,very
+996,34-60,not at all,not at all
+997,0-18,Somewhat,very
+998,60+,not at all,not at all
+999,18-34,no answer,very
+1000,60+,not very,not very
