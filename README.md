@@ -6,10 +6,29 @@ This repo contains all the documentations prepared, assignments done, and projec
   <li>Regression Datasets</li>
   <ol>
     <li><a href='https://www.kaggle.com/shivam2503/diamonds'>Diamond Prices and Carat Regression</a></li>
-    <li>Age of Abalone Shells</li>
-    <li>King County House Sales</li>
-    <li>Cancer Death Rate</li>
-    <li>Life Expectancy</li>
-    <li>Car Prices</li>
+    <li><a href='https://www.kaggle.com/rodolfomendes/abalone-dataset'>Age of Abalone Shells</a></li>
+    <li><a href='https://www.kaggle.com/harlfoxem/housesalesprediction'>King County House Sales</a></li>
+    <li><a href='https://data.world/nrippner/ols-regression-challenge'>Cancer Death Rate</a></li>
+    <li><a href='https://www.kaggle.com/kumarajarshi/life-expectancy-who/'>Life Expectancy</a></li>
+    <li><a href='https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho?ref=hackernoon.com&select=Car+details+v3.csv'>Car Prices</a></li>
   </ol>
+  <li>Binary Classification</li>
+  <ol>
+    <li><a href='https://data.world/exercises/logistic-regression-exercise-1'>NBA rookie stasts</a></li>
+    <li><a href='https://www.kaggle.com/fedesoriano/stroke-prediction-dataset'>Stroke Prediction</a></li>
+    <li><a href='https://www.kaggle.com/adityakadiwal/water-potability'>Water Potability</a></li>
+    <li><a href='https://www.kaggle.com/pcbreviglieri/smart-grid-stability'>Smart Grid Stability</a></li>
+    <li><a href='https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset'>IBM HR analytics & employee attrition</a></li>
+    <li><a href='https://www.kaggle.com/uciml/mushroom-classification'>Can I eat this mushroom?</a></li>
+    <li><a href='https://www.kaggle.com/ritesaluja/bank-note-authentication-uci-data'>Banknote Authentication</a></li>
+    <li><a href='https://www.kaggle.com/wenruliu/adult-income-dataset'>Adult Income Dataset</a></li>
+  </ol>
+  
+  <li>Multi-Class Classification</li>
+  <ol>
+    <li><a href='https://www.openml.org/d/181'>Yeast Classification</a></li>
+    <li><a href='https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho?ref=hackernoon.com&select=Car+details+v3.csv'>Kaggle TPS May 2021</a></li>
+    <li><a href='https://www.kaggle.com/c/tabular-playground-series-jun-2021/data?select=train.csv'>Kaggle TPS June 2021</a></li>
+  </ol>
+  
 </ul>
