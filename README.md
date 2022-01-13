@@ -32,3 +32,9 @@ This repo contains all the documentations prepared, assignments done, and projec
   </ol>
   
 </ul>
+
+## Chart Suggestion
+![image](https://user-images.githubusercontent.com/26330512/149336542-9eeb80a9-24be-4d24-b724-2b05480a6975.png)
+![image](https://user-images.githubusercontent.com/26330512/149336627-fd79a7dc-1fe8-47e1-8d92-54d60f349131.png)
+
+
