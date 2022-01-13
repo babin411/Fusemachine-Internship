@@ -38,3 +38,8 @@ This repo contains all the documentations prepared, assignments done, and projec
 ![image](https://user-images.githubusercontent.com/26330512/149336627-fd79a7dc-1fe8-47e1-8d92-54d60f349131.png)
 
 
+## Step by Step Process for Feature Engineering
+Step 1: 
+  - Exploratory Data Analysis
+    - As soon as you get the raw data
+      - i) See how many numerical features are there in the dataset
