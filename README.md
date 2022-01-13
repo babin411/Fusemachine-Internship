@@ -38,8 +38,27 @@ This repo contains all the documentations prepared, assignments done, and projec
 ![image](https://user-images.githubusercontent.com/26330512/149336627-fd79a7dc-1fe8-47e1-8d92-54d60f349131.png)
 
 
-## Step by Step Process for Feature Engineering
+## Step by Step Process for Feature Engineering (Convert Raw Data to Useful Data for our machine learning models)
 Step 1: 
   - Exploratory Data Analysis
     - As soon as you get the raw data
-      - i) See how many numerical features are there in the dataset
+      - See how many numerical features are there in the dataset {Histogram, Probability Density Function}
+      - See how many categorical features are there in the dataset, see how many categories are there in each feature {Boxplot, }
+      - Missing Values {Visualize}
+      - Outliers {Boxplot}
+      - See if the raw data needs cleaning or not
+Step 2:
+  - Handling of the missing values 
+    - with mean, median, mode or other imputation techniques
+Step 3:
+  - Handling imbalanced datasets
+    - through upsampling, downsampling or combination of upsampling and downsampling techniques using imbalanced-learn library  
+Step 4:
+  - Treating the Outliers
+Step 5: 
+  - Scaling the data 
+    - through standardization, normalization or other techniques  
+Step 6:
+  - Converting the Categorical Features into Numerical Features
+    - use labelencoder, onehotencoder, binaryencoder,etc from sklearn or category-encoders 
+ 
