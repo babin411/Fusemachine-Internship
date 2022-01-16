@@ -54,7 +54,8 @@ Step 2:
     
 Step 3:
   - Handling imbalanced datasets
-    - through upsampling, downsampling or combination of upsampling and downsampling techniques using imbalanced-learn library  
+    - through upsampling, downsampling or combination of upsampling and downsampling techniques using imbalanced-learn library 
+
 Step 4:
   - Treating the Outliers
   
