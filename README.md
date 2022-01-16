@@ -47,6 +47,7 @@ Step 1:
       - Missing Values {Visualize}
       - Outliers {Boxplot}
       - See if the raw data needs cleaning or not
+      
 Step 2:
   - Handling of the missing values 
     - with mean, median, mode or other imputation techniques
