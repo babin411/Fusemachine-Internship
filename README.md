@@ -51,14 +51,17 @@ Step 1:
 Step 2:
   - Handling of the missing values 
     - with mean, median, mode or other imputation techniques
+    
 Step 3:
   - Handling imbalanced datasets
     - through upsampling, downsampling or combination of upsampling and downsampling techniques using imbalanced-learn library  
 Step 4:
   - Treating the Outliers
+  
 Step 5: 
   - Scaling the data 
     - through standardization, normalization or other techniques  
+    
 Step 6:
   - Converting the Categorical Features into Numerical Features
     - use labelencoder, onehotencoder, binaryencoder,etc from sklearn or category-encoders 
