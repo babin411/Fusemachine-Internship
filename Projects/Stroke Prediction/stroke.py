@@ -81,6 +81,8 @@ def models(X_train,y_train):
     classifiers = []
     accuracy, precision, recall, f1, confusion_mat,auc_score = [],[],[],[],[],[]
     
+    train_accuracy, train_precision, train_recall, train_f1, train_auc_score = [],[],[],[],[]
+    
     classifiers.append(LogisticRegression(solver='lbfgs'))
     classifiers.append(SVC(kernel='rbf',probability=True))
     classifiers.append(DecisionTreeClassifier(criterion='entropy', 
@@ -119,7 +121,7 @@ def models(X_train,y_train):
         predictions = classifier.predict(X_test)
         predictions_prob = classifier.predict_proba(X_test)[:,1]
         
-        #evaluating model
+        #evaluating model on test_set
         accuracy.append(accuracy_score(y_test,predictions))
         precision.append(precision_score(y_test,predictions))
         recall.append(recall_score(y_test, predictions))
@@ -129,11 +131,21 @@ def models(X_train,y_train):
         #confusion matrix
         confusion_mat.append(confusion_matrix(y_test, predictions))
         
+        #evaluating model on train_set
+        train_predictions = classifier.predict(X_train)
+        train_predictions_prob = classifier.predict_proba(X_train)[:,1]
+        train_accuracy.append(accuracy_score(y_train, train_predictions))
+        train_precision.append(precision_score(y_train, train_predictions))
+        train_recall.append(recall_score(y_train, train_predictions))
+        train_f1.append(f1_score(y_train, train_predictions))
+        train_auc_score.append(roc_auc_score(y_train, train_predictions))
+        
         end_time = time.time()
         print(f'Total Training Time: {(end_time - start_time):.2f} seconds')
         
-        # pickle.dump(classifier,open(os.path.join(model_path,model_name[i])+'.pkl', 'wb'))
-        # i+=1
+        #saving model
+        pickle.dump(classifier,open(os.path.join(model_path,model_name[i])+'.pkl', 'wb'))
+        i+=1
         
         
     results_df = pd.DataFrame({
@@ -147,8 +159,21 @@ def models(X_train,y_train):
                      'BernoulliNB','VotingClassifier','AdaBoostClassifier','GradientBoostingClassifier','XGBClassifier']
     })
     results_df.set_index('Algorithm',inplace=True)
+    
+    train_results_df = pd.DataFrame({
+        'Accuracy Score': train_accuracy,
+        'Precision Score': train_precision,
+        'Recall Score': train_recall,
+        'F1 Score': train_f1,
+        'ROC-AUC Score': train_auc_score,
+        'Algorithm': ['LogisticRegression','SVC', 'DecisionTreeClassifier','KNeighborsClassifier','RandomForestClassifier',
+                     'BernoulliNB','VotingClassifier','AdaBoostClassifier','GradientBoostingClassifier','XGBClassifier']
+    })
+    train_results_df.set_index('Algorithm',inplace=True)
+    
     results_df.to_csv('model_evaluation.csv')
-    return results_df
+    train_results_df.to_csv('model_evaluation_train.csv')
+    return results_df, train_results_df
             
     
 if __name__ == '__main__':

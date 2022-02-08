@@ -14,6 +14,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import missingno as msno
 import plotly.express as px
+import plotly.graph_objects as go
 
 from stroke import imputing_mv
 
@@ -193,7 +194,7 @@ if __name__=='__main__':
             plt.title("Pie Chart for 'stroke' distribution", fontsize=20)
             st.pyplot(fig)
             
-        if btn2.button(label='Stroke vs Gender'):
+        if btn2.button(label='Gender Distribution'):
             fig, ax = plt.subplots(1,2, figsize=(20,8))
             sns.countplot(x="gender", data= imputed_df, palette="tab10", hue = "gender", ax=ax[0],hue_order=['Female','Male','Other'])
             ax[0].set(xlabel="Gender", ylabel="Count of specific gender")
@@ -206,7 +207,7 @@ if __name__=='__main__':
             plt.title("Pie Chart for gender distribution", fontsize=20)
             st.pyplot(fig)
             
-        if btn3.button(label='Stroke vs Hypertension'):
+        if btn3.button(label='Hypertension Distribution'):
             fig, ax = plt.subplots(1,2, figsize=(20,8))
             sns.countplot(x="hypertension", data= imputed_df, palette="tab10", ax=ax[0],)
             ax[0].set(xlabel="Hypertension", ylabel="Counts")
@@ -221,7 +222,7 @@ if __name__=='__main__':
             plt.title("Pie Chart for hypertension distribution", fontsize=20)
             st.pyplot(fig)
             
-        if btn4.button(label='Stroke vs Heart Disease'):
+        if btn4.button(label='Heart Disease Distribution'):
             fig, ax = plt.subplots(1,2, figsize=(20,8))
             sns.countplot(x="heart_disease", data= imputed_df, palette="tab10", ax=ax[0],)
             ax[0].set(xlabel="heart_disease", ylabel="Count of heart_disease")
@@ -237,7 +238,7 @@ if __name__=='__main__':
             st.pyplot(fig)
             
             
-        if btn5.button(label='Stroke vs Marital Status'):
+        if btn5.button(label='Marital Status Distribution'):
             fig, ax = plt.subplots(1,2, figsize=(20,8))
             sns.countplot(x="ever_married", data= imputed_df, palette="tab10", ax=ax[0],)
             ax[0].set(xlabel="ever_married", ylabel="Count of ever_married")
@@ -252,7 +253,7 @@ if __name__=='__main__':
             st.pyplot(fig)
             
         
-        if btn6.button(label='Stroke vs Work Type'):
+        if btn6.button(label='Work Type Distribution'):
             fig, ax = plt.subplots(1,2, figsize=(20,8))
             type_counts = imputed_df.work_type.value_counts()
             sns.countplot(x="work_type", data= imputed_df, palette="tab10", ax=ax[0],order = type_counts.index)
@@ -267,7 +268,7 @@ if __name__=='__main__':
             st.pyplot(fig)
             
             
-        if btn7.button(label='Stroke vs Residence Type'):
+        if btn7.button(label='Residence Type Distribution'):
             type_counts = imputed_df.Residence_type.value_counts()
             fig, ax = plt.subplots(1,2, figsize=(20,8))
             sns.countplot(x="Residence_type", data= imputed_df, palette="tab10", ax=ax[0],order=type_counts.index)
@@ -281,7 +282,7 @@ if __name__=='__main__':
             plt.title("Pie Chart for Residence_type distribution", fontsize=20)
             st.pyplot(fig)
             
-        if btn8.button(label='Stroke vs Smoking Status'):
+        if btn8.button(label='Smoking Status Distribution'):
             type_counts = imputed_df.smoking_status.value_counts()
             fig, ax = plt.subplots(1,2, figsize=(20,8))
             sns.countplot(x="smoking_status", data= imputed_df, palette="tab10", ax=ax[0],order=type_counts.index)
@@ -326,26 +327,94 @@ if __name__=='__main__':
             ax[1]=plt.legend(bbox_to_anchor=(1.05, 1.0), loc='upper left')
             ax[1]=plt.title('Distribution of bmi according to Stroke')
             st.pyplot(fig)
+            
+        st.subheader('Visualizing Data Distribution')
+        st.markdown("""<hr style="height:2px;border:none;color:#333;background-color:#333;margin-top: -10px" /> """, unsafe_allow_html=True)
+
+        
+        #buttons for distribution
+        btn13, btn14, btn15 = st.columns(3)
+        cat_features = imputed_df.select_dtypes(['object']).columns.tolist()
+    
+        if btn13.button(label='Analysis of Categorical Variables with respect to age'):
+            fig2, ax = plt.subplots(2,3,figsize=(20,12))
+            fig2.delaxes(ax[1][2])
+            i=0
+            for row in range(2):
+                for col in range(3):
+                    if i < 5:
+                        sns.boxplot(x=cat_features[i], y='age',data=imputed_df, ax=ax[row][col], hue='stroke',)
+                        i+=1
+            plt.legend(loc='best')
+            st.pyplot(fig2)
+        
+        
+        if btn14.button(label='Analysis of Categorical Variables with respect to bmi'):
+            fig2, ax = plt.subplots(2,3,figsize=(20,12))
+            fig2.delaxes(ax[1][2])
+            i=0
+            for row in range(2):
+                for col in range(3):
+                    if i < 5:
+                        sns.boxplot(x=cat_features[i], y='bmi',data=imputed_df, ax=ax[row][col], hue='stroke',)
+                        i+=1
+            plt.legend(loc='best')
+            st.pyplot(fig2)
+            
+        
+        if btn15.button(label='Analysis of Categorical Variables with respect to avg_glucose_level'):
+            fig2, ax = plt.subplots(2,3,figsize=(20,12))
+            fig2.delaxes(ax[1][2])
+            i=0
+            for row in range(2):
+                for col in range(3):
+                    if i < 5:
+                        sns.boxplot(x=cat_features[i], y='avg_glucose_level',data=imputed_df, ax=ax[row][col], hue='stroke',)
+                        i+=1
+            plt.legend(loc='best')
+            st.pyplot(fig2)
+        
     
         st.subheader('Evaluating Model Performance')
         st.markdown("""<hr style="height:2px;border:none;color:#333;background-color:#333;margin-top: -10px" /> """, unsafe_allow_html=True)
         model_eval_df = pd.read_csv(os.path.join(os.getcwd(),'model_evaluation.csv'), index_col='Algorithm')
         model_eval_df = model_eval_df.loc[:,:'ROC-AUC Score']
         model_eval_df.reset_index(inplace=True)
+        
+        train_model_eval_df = pd.read_csv(os.path.join(os.getcwd(),'model_evaluation_train.csv'), index_col='Algorithm')
+        train_model_eval_df.reset_index(inplace=True)
         st.dataframe(model_eval_df.style.highlight_max(color='green'))
         
-        btn12, btn13, btn14 = st.columns(3)
-        btn15, btn16, btn17 = st.columns(3)
+        btn16, btn17, btn18 = st.columns(3)
+        btn19, btn20, btn21 = st.columns(3)
         
-        if btn12.button('Accuracy Score'):
-            # fig, ax = plt.subplots()
-            # sns.scatterplot(data=model_eval_df,x='Algorithm', y='Accuracy Score',hue='Accuracy Score',palette='tab10')
-            # plt.xticks(rotation=90)
-            # plt.legend(bbox_to_anchor=(1.05,1.0),loc='best')
-            # st.pyplot(fig)
-            fig = px.scatter(model_eval_df,x='Algorithm',
-                    y='Accuracy Score',template='none'
-                    )
+        if btn16.button('Accuracy Score'):
+            # fig = px.line(model_eval_df,x='Algorithm',
+            #         y='Accuracy Score',template='none', markers=True
+            #         )
+            # fig.add_line(train_model_eval_df, x='Algorithm', y='Accuracy Score',
+            #               template='none', markers=True)
+            # fig.update_layout(
+            #     title="Accuracy Plot",
+            #     xaxis_title="Algorithms",
+            #     yaxis_title="Accuracy",
+            # )
+            # st.write(fig)
+            fig = go.Figure()
+            fig.add_trace(
+                go.Scatter(
+                    x=model_eval_df['Algorithm'], 
+                    y=model_eval_df['Accuracy Score'],
+                    name='Test Set'
+                )
+            )
+            fig.add_trace(
+                go.Scatter(
+                    x=train_model_eval_df['Algorithm'], 
+                    y=train_model_eval_df['Accuracy Score'],
+                    name='Train Set',
+                )
+            )
             fig.update_layout(
                 title="Accuracy Plot",
                 xaxis_title="Algorithms",
@@ -353,48 +422,98 @@ if __name__=='__main__':
             )
             st.write(fig)
             
-        if btn13.button('Precision Score'):
-            fig = px.scatter(model_eval_df,x='Algorithm',
-                    y='Precision Score',template='none'
-                    )
+            
+            
+            
+        if btn17.button('Precision Score'):
+            fig = go.Figure()
+            fig.add_trace(
+                go.Scatter(
+                    x=model_eval_df['Algorithm'], 
+                    y=model_eval_df['Precision Score'],
+                    name='Test Set'
+                )
+            )
+            fig.add_trace(
+                go.Scatter(
+                    x=train_model_eval_df['Algorithm'], 
+                    y=train_model_eval_df['Precision Score'],
+                    name='Train Set'
+                )
+            )
             fig.update_layout(
-                title="Accuracy Plot",
+                title="Prcision Plot",
                 xaxis_title="Algorithms",
                 yaxis_title="Precision",
             )
             st.write(fig)
             
-        if btn14.button('Recall Score'):
-            fig = px.scatter(model_eval_df,x='Algorithm',
-                    y='Recall Score',template='none'
-                    )
+        if btn18.button('Recall Score'):
+            fig = go.Figure()
+            fig.add_trace(
+                go.Scatter(
+                    x=model_eval_df['Algorithm'], 
+                    y=model_eval_df['Recall Score'],
+                    name='Test Set'
+                )
+            )
+            fig.add_trace(
+                go.Scatter(
+                    x=train_model_eval_df['Algorithm'], 
+                    y=train_model_eval_df['Recall Score'],
+                    name='Train Set'
+                )
+            )
             fig.update_layout(
-                title="Accuracy Plot",
+                title="Recall Plot",
                 xaxis_title="Algorithms",
                 yaxis_title="Recall",
             )
             st.write(fig)
         
         
-        if btn15.button('F1 Score'):
-            fig = px.scatter(model_eval_df,x='Algorithm',
-                    y='F1 Score',template='none'
-                    )
+        if btn19.button('F1 Score'):
+            fig = go.Figure()
+            fig.add_trace(
+                go.Scatter(
+                    x=model_eval_df['Algorithm'], 
+                    y=model_eval_df['F1 Score'],
+                    name='Test Set'
+                )
+            )
+            fig.add_trace(
+                go.Scatter(
+                    x=train_model_eval_df['Algorithm'], 
+                    y=train_model_eval_df['F1 Score'],
+                    name='Train Set'
+                )
+            )
             fig.update_layout(
-                title="Accuracy Plot",
+                title="F1 Plot",
                 xaxis_title="Algorithms",
-                yaxis_title="F1 Score",
+                yaxis_title="F1",
             )
             st.write(fig)
             
-        if btn16.button('ROC-AUC Score'):
-            fig = px.scatter(model_eval_df,x='Algorithm',
-                    y='ROC-AUC Score',template='none'
-                    )
+        if btn20.button('ROC-AUC Score'):
+            fig = go.Figure()
+            fig.add_trace(
+                go.Scatter(
+                    x=model_eval_df['Algorithm'], 
+                    y=model_eval_df['ROC-AUC Score'],
+                    name='Test Set'
+                )
+            )
+            fig.add_trace(
+                go.Scatter(
+                    x=train_model_eval_df['Algorithm'], 
+                    y=train_model_eval_df['ROC-AUC Score'],
+                    name='Train Set'
+                )
+            )
             fig.update_layout(
-                title="Accuracy Plot",
+                title="ROC-AUC Plot",
                 xaxis_title="Algorithms",
-                yaxis_title="ROC-AUC Score",
-                # paper_bgcolor='whitesmoke'
+                yaxis_title="ROC-AUC",
             )
             st.write(fig)
