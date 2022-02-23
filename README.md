@@ -67,3 +67,5 @@ Step 6:
   - Converting the Categorical Features into Numerical Features
     - use labelencoder, onehotencoder, binaryencoder,etc from sklearn or category-encoders 
  
+
+**Feature Selection**: <a href='https://www.analyticsvidhya.com/blog/2020/10/feature-selection-techniques-in-machine-learning/'>Analytics Vidhya</a>
