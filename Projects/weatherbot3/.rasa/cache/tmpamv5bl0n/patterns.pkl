@@ -1,0 +1,6 @@
+[
+  {
+    "name": "products",
+    "pattern": "(\\bKathmandu\\b|\\bPokhara\\b|\\bLalitpur\\b|\\bBiratnagar\\b|\\bBirgunj\\b|\\bDharan\\b|\\bBharatpur\\b|\\bBhim\\ Dutta\\b|\\bButwal\\b|\\bHetauda\\b|\\bBhaktapur\\b|\\bJanakpur\\b|\\bDhangadhi\\b|\\bItahari\\b|\\bTriyuga\\b|\\bSiddharthanagar\\b|\\bNepalganj\\b|\\bMadhyapur\\ Thimi\\b|\\bMechinagar\\b|\\bGhorahi\\b|\\bLekhnath\\b|\\bKirtipur\\b|\\bBirendrangar\\b|\\bGulariya\\b|\\bTikapur\\b|\\bRatnanagar\\b|\\bKamalamai\\b|\\bDaman\\b|\\bGorkha\\b|\\bRajbiraj\\b|\\bKapilvastu\\b|\\bByas\\b|\\bLahan\\b|\\bPutalibazar\\b|\\bPanauti\\b|\\bGaur\\b|\\bDipayal\\-Silgadhi\\b|\\bInaruwa\\b|\\bSiraha\\b|\\bRamgram\\b|\\bJaleswar\\b|\\bBaglung\\b|\\bTansen\\b|\\bKhandbari\\b|\\bBhimeshwar\\b|\\bDhankuta\\b|\\bBidur\\b|\\bWaling\\b|\\bNarayan\\b|\\bMalangwa\\b|\\bBhadrapur\\b|\\bAmaragadhi\\b|\\bDashrathchand\\b|\\bIlam\\b|\\bBanepa\\b|\\bDhulikhel\\b)"
+  }
+]

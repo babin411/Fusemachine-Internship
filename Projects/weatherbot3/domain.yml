@@ -1,0 +1,56 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - ask_developer
+  - weather:
+      use_entities: true
+  - inform 
+
+entities:
+  - location 
+
+
+actions:
+  - utter_greet 
+  - utter_goodbye 
+  - utter_iamabot 
+  - utter_developed_by  
+  - action_weather
+
+
+slots: 
+  location:
+    type: text 
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: location
+      initial_value: "Kathmandu"
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+  - text: "What can I do for you?"
+  - text: "Hi, there!"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Nice to meet you"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_developed_by:
+  - text: "I was developed by Babin Joshi"
+  - text: "Babin Joshi is my creator"
+  - text: "I was programmed by Babin Joshi"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

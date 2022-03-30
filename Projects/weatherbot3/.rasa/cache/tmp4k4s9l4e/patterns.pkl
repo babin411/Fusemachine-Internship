@@ -1,0 +1,10 @@
+[
+  {
+    "name": "location",
+    "pattern": "(\\bBaglung\\b|\\bBanepa\\b|\\bBhadrapur\\b|\\bBhaktapur\\b|\\bBharatpur\\b|\\bBhim\\ Dutta\\b|\\bBidur\\b|\\bBiratnagar\\b|\\bBirgun\\b|\\bButwal\\b|\\bByas\\b|\\bDaman\\b|\\bDhangadhi\\b|\\bDhankuta\\b|\\bDharan\\b|\\bDhulikhel\\b|\\bDipayal\\-Silgadhi\\b|\\bGaur\\b|\\bGhorahi\\b|\\bGorkha\\b|\\bGulariya\\b|\\bHetauda\\b|\\bIlam\\b|\\bItahari\\b|\\bJaleswar\\b|\\bJanakpur\\b|\\bKapilvastu\\b|\\bKathmandu\\b|\\bKhandbari\\b|\\bKirtipur\\b|\\bLahan\\b|\\bLalitpur\\b|\\bMadhyapur\\ Thimi\\b|\\bMalangwa\\b|\\bNarayan\\b|\\bNepalganj\\b|\\bPanauti\\b|\\bPokhara\\b|\\bRajbiraj\\b|\\bSiddharthanagar\\b|\\bSiraha\\b|\\bTansen\\b|\\bTikapur\\b|\\bWaling\\b)"
+  },
+  {
+    "name": "location",
+    "pattern": "(\\bBaglung\\b|\\bBanepa\\b|\\bBhadrapur\\b|\\bBhaktapur\\b|\\bBharatpur\\b|\\bBhim\\ Dutta\\b|\\bBidur\\b|\\bBiratnagar\\b|\\bBirgun\\b|\\bButwal\\b|\\bByas\\b|\\bDaman\\b|\\bDhangadhi\\b|\\bDhankuta\\b|\\bDharan\\b|\\bDhulikhel\\b|\\bDipayal\\-Silgadhi\\b|\\bGaur\\b|\\bGhorahi\\b|\\bGorkha\\b|\\bGulariya\\b|\\bHetauda\\b|\\bIlam\\b|\\bItahari\\b|\\bJaleswar\\b|\\bJanakpur\\b|\\bKapilvastu\\b|\\bKathmandu\\b|\\bKhandbari\\b|\\bKirtipur\\b|\\bLahan\\b|\\bLalitpur\\b|\\bMadhyapur\\ Thimi\\b|\\bMalangwa\\b|\\bNarayan\\b|\\bNepalganj\\b|\\bPanauti\\b|\\bPokhara\\b|\\bRajbiraj\\b|\\bSiddharthanagar\\b|\\bSiraha\\b|\\bTansen\\b|\\bTikapur\\b|\\bWaling\\b)"
+  }
+]
